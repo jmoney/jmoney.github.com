@@ -1,6 +1,5 @@
-mkdocs
-ghapi
-mkdocs-github
-mkdocs-macros-plugin
-mkdocs-include-markdown-plugin
-requests
+ghapi==1.0.4
+mkdocs-github==0.0.6
+mkdocs-macros-plugin==1.0.2
+mkdocs-include-markdown-plugin==5.1.
+requests==2.31.0
