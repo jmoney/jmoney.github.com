@@ -1,0 +1,6 @@
+mkdocs
+ghapi
+mkdocs-github
+mkdocs-macros-plugin
+mkdocs-include-markdown-plugin
+requests
