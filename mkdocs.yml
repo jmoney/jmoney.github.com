@@ -14,7 +14,7 @@ nav:
   - Blogs: blogs/index.md
   - Cloud: cloud/index.md
   - Homebrew: homebrew/index.md 
-  - TIL: 'https://jmoney.dev/til'
+  - TIL: 'https://www.jmoney.dev/til'
   - Resume: 'https://github.com/jmoney/resume/releases/download/latest/JonathanMonette_resume.pdf'
 
 theme:
