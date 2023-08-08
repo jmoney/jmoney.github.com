@@ -1,4 +1,6 @@
-# Dev.To
+# Blogs
+
+## Dev.To
 
 {% for name, blog in list_blogs('jmoney').items() %}
 

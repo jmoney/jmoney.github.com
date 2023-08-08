@@ -26,7 +26,7 @@ def define_env(env):
         repos = g.search.repos(searchStr, order="asc", sort="name", per_page=100)
 
         for repo in repos['items']:
-            output[repo['name']] = {'url': repo['homepage'] if repo['homepage'] else repo['full_url'], 'description': repo['description']}
+            output[repo['name']] = {'url': repo['homepage'] if repo['homepage'] else repo['html_url'], 'description': repo['description']}
         return output
     
     @env.macro
