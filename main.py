@@ -28,11 +28,3 @@ def define_env(env):
         for repo in repos['items']:
             output[repo['name']] = {'url': repo['homepage'] if repo['homepage'] else repo['html_url'], 'description': repo['description']}
         return output
-    
-    @env.macro
-    def list_blogs(user: str):
-        resp = requests.get(f'https://dev.to/api/articles?username={user}')
-        output = {}
-        for blog in resp.json():
-            output[blog['title']] = {'url': blog['url'], 'description': blog['description']}
-        return OrderedDict(sorted(output.items()))
